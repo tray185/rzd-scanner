@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Собрать APK
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Клонировать репозиторий
         uses: actions/checkout@v4
